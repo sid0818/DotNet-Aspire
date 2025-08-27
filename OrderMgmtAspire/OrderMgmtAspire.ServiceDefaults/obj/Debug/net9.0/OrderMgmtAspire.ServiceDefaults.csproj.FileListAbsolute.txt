@@ -1,0 +1,12 @@
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\bin\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.deps.json
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\bin\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.dll
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\bin\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.pdb
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.AssemblyInfo.cs
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.dll
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\refint\OrderMgmtAspire.ServiceDefaults.dll
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\OrderMgmtAspire.ServiceDefaults.pdb
+C:\Vs development\Dotnet Aspire\OrderMgmtAspire\OrderMgmtAspire.ServiceDefaults\obj\Debug\net9.0\ref\OrderMgmtAspire.ServiceDefaults.dll

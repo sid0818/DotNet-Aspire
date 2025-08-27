@@ -1,0 +1,60 @@
+﻿@page "/orders"
+@using System.Net.Http.Json
+@inject HttpClient Http
+
+<PageTitle>Order Management</PageTitle>
+
+<h3>Order List</h3>
+
+@if (orders is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var order in orders)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.CustomerName</td>
+                <td>@order.Product</td>
+                <td>@order.Quantity</td>
+                <td>@order.Price</td>
+                <td>@order.OrderDate.ToShortDateString()</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Order>? orders;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Change "orders-api" to your actual service name if different
+        orders = await Http.GetFromJsonAsync<List<Order>>("http://orders-api/api/orders");
+    }
+
+    public class Order
+    {
+        public int Id { get; set; }
+        public string CustomerName { get; set; } = "";
+        public string Product { get; set; } = "";
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+        public DateTime OrderDate { get; set; }
+    }
+}
